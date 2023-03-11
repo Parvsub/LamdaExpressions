@@ -17,13 +17,10 @@ interface MathFunction {
 
             System.out.println("Addition " + addition.calculation(2, 3));
             System.out.println("Subtraction  " + subtraction.calculation(5, 3));
-            System.out.println("Multiplication  " + multiplication.calculation(6, 8));
-            System.out.println("Division " + division.calculation(10, 2));
 
             MathFunction.printResult(4, 2, "addition", addition);
             MathFunction.printResult(6, 3, "Subtraction", subtraction);
-            MathFunction.printResult(9, 8, "Multiplication", multiplication);
-
+            
         }
     }
 }
